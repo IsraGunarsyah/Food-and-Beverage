@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+    
+}
+.login{
+    position: relative;
+    width: 0;
+    height: 0;
+}
+
+.login img{
+    height: 43.2rem;
+    
+}
+
+.content{
+    position: relative;
+    left: 52rem;
+   top: -35rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+
+}
+
+h1{
+    position: relative;
+    left: -1.5rem;
+    font-size:3rem;
+}
+
+h4{
+    position: relative;
+    top: -2rem;
+    left: 1.5rem;
+}
+input{
+    position: relative;
+    top: -2rem;
+    width: 15rem;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+p{
+    position: relative;
+    top: -2rem;
+}
+
+span a{
+    position: relative;
+    color: red;
+    text-decoration: none;
+}
+
+button{
+    width: 206px;
+    height: 56px;
+    border-radius: 20px;
+   position: relative;
+   top: -2rem;
+   left: 2rem;
+   background-color: #48A7FF;
+   color: white;
+   font-weight: bold;
+   border: none;
+}

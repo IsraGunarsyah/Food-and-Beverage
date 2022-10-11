@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:montserrat;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    border-bottom: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-evenly;
+    
+}
+
+nav ul li a{
+    width: 112px;
+    height: 18px;
+    text-decoration: none;
+    position: relative;
+    right: 50px;
+    color: black;
+    font-size: 17px;
+    top: 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:grey;
+}
+
+.logo img{
+    width: 40px;
+    position: relative;
+    top: 10px;
+    right: 60px;
+}
+
+.logo h4{
+    position: relative;
+    right: 5px;
+    bottom: 20px;
+}
+
+
+
+nav ul li button{
+    position: relative;
+    left: 85px;
+    width: 55px;
+    height: 20px;
+}
+
+nav ul li input{
+    width: 229px;
+    height: 35px;
+    position: relative;
+    left: 40px;
+    border: none;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.navbar ul li ul{
+    position: absolute;
+    background-color:white;
+    top: 3.5rem;
+    left: 28rem;
+    width: 9rem; 
+    display: block;
+    display: none;
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar ul li ul li{
+    font-weight: bold;
+}
+
+span{
+    font-weight: 100;
+}
+
+.btn1{
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 3px 3px 3px gray;
+}
+
+.btn1:hover{
+    background-color: rgb(226, 222, 222);
+}
+
+.btn2{
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    background-color:#367E18;
+    border: none;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px gray;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #4bb019;
+}
+
+.halaman1{
+    background-color:white;
+    
+}

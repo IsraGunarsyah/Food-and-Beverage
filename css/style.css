@@ -1,0 +1,728 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:montserrat;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    border-bottom: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-evenly;
+    
+}
+
+nav ul li a{
+    width: 112px;
+    height: 18px;
+    text-decoration: none;
+    position: relative;
+    right: 50px;
+    color: black;
+    font-size: 17px;
+    top: 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:grey;
+}
+
+.logo img{
+    width: 40px;
+    position: relative;
+    top: 10px;
+    right: 60px;
+}
+
+.logo h4{
+    position: relative;
+    right: 5px;
+    bottom: 20px;
+}
+
+
+
+nav ul li button{
+    position: relative;
+    left: 85px;
+    width: 55px;
+    height: 20px;
+}
+
+nav ul li input{
+    width: 229px;
+    height: 35px;
+    position: relative;
+    left: 40px;
+    border: none;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.navbar ul li ul{
+    position: absolute;
+    background-color:white;
+    top: 3.5rem;
+    left: 28rem;
+    width: 9rem; 
+    display: block;
+    display: none;
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar ul li ul li{
+    font-weight: bold;
+}
+
+span{
+    font-weight: 100;
+}
+
+
+.btn1{
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 3px 3px 3px gray;
+}
+
+.btn1:hover{
+    background-color: rgb(226, 222, 222);
+}
+
+.btn2{
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    background-color:#367E18;
+    border: none;
+    border-radius:5px;
+    box-shadow: 3px 3px 3px gray;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #4bb019;
+}
+
+.halaman1{
+    background-color:white;
+    
+}
+
+.text1{
+    
+    position: relative;
+    width: 400px;
+    left: 150px;
+    top: 190px;
+    font-weight: bold;
+}
+
+.text1 h1{
+    height: 50px;
+}
+
+.text1 p{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#foto1{
+    text-align: end;
+    position: relative;
+    top: -270px;
+}
+
+#foto1 img{
+
+    width: 800px;
+}
+
+.btn3{
+    background-color: #367E18;
+    border: none;
+    width: 7rem;
+    height: 3rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 20px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.btn3:hover{
+   color:black;
+   background-color: #4bb019;
+
+}
+
+.carousel{
+    align-items: center;
+    display: flex;
+    margin: 2rem auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.25s;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.button{
+    background: black;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+    opacity: 0.25;
+    position: absolute;
+    transition: opacity 0.25s;
+    width: 3rem;
+    z-index: 1;
+}
+
+.button:hover{
+    opacity: 0.50s;
+}
+
+#pervious{
+    left: 5px;
+}
+
+#next{
+    right: 5px;
+}
+
+
+/*halaman 3,card*/
+
+.halaman3{
+    background-color: #EDEDED;
+    height: 50rem;
+    margin-top: 0px;
+}
+
+.halaman3 h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    top: 5rem;
+}
+
+.halaman3 hr{
+
+    position: relative;
+    top: 2rem;
+}
+
+.halaman3 .hr1{
+    position: relative;
+    top: -2rem;
+}
+.card{
+    background-color: white;
+    position: relative;
+    left: 5rem;
+    top: 12rem;
+    text-align: center;
+    width: 24rem;
+    border-radius: 20px;
+}
+
+.cards2{
+    background-color: white;
+    position: relative;
+    left: 30rem;
+    top: -18rem;
+    text-align: center;
+    width: 24rem;
+    border-radius: 20px;
+
+
+}
+
+.center{
+    position:relative;
+    top:7rem;
+    left:-9%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .center .stars{
+    height:150px;
+    width:500px;
+    text-align:center;
+  }
+  
+  .stars label{
+    font-size:30px;
+    color: lightgrey;
+    float:right;
+    margin:0 5px;
+    text-shadow:1px 1px #bbb;
+  }
+  
+  .stars label:before{
+    content: '★';
+    
+  }
+  
+  .stars input{
+    display:none;
+    width: 1px;
+  }
+  
+  .stars input:checked ~ label{
+    color:gold;
+    text-shadow:1px 1px #c60;
+    
+  }
+  
+  .stars:not(:checked) > label:hover{
+    color:gold;
+  }
+  
+
+
+  .stars .result:before{
+    position:relative;
+    content: '';
+    left:100%;
+    top: 40px;
+    transform: translateX(-50%);
+    font-size:20px;
+    bottom:-30px;
+    font-weight:500;
+    color:gold;
+    display:none;
+    
+  }
+  
+  .stars input:checked ~ .result:before{
+    display:block;
+  }
+  
+  .stars #five:checked ~ .result:before{
+    content : "I Love it  😍";
+  }
+  
+  .stars #four:checked ~ .result:before{
+    content : "I Like it 😎";
+  }
+  
+  .stars #three:checked ~ .result:before{
+    content : "It's Good 😄";
+  }
+  
+  .stars #two:checked ~ .result:before{
+    content : "I Don't like it 😒";
+  }
+  
+  .stars #one:checked ~ .result:before{
+    content : "I Hate it 😠";
+  }
+
+  .sosmed{
+    display: flex;
+    justify-content: end;
+
+  }
+
+  .sosmed img{
+    position: relative;
+    left: -20px;
+    top: -10px;
+  }
+
+  .sosmed a{
+    position: relative;
+    right: 30px;
+    top: -11px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .sosmed a:hover{
+    color:rgb(195, 195, 195);
+  }
+  
+  /*star 2*/
+
+  .center10{
+    position:relative;
+    top:7rem;
+    left:-9%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .center10 .stars10{
+    height:150px;
+    width:500px;
+    text-align:center;
+  }
+  
+  .stars10 label{
+    font-size:30px;
+    color: lightgrey;
+    float:right;
+    margin:0 5px;
+    text-shadow:1px 1px #bbb;
+  }
+  
+  .stars10 label:before{
+    content: '★';
+    
+  }
+  
+  .stars10 input{
+    display:none;
+    width: 1px;
+  }
+  
+  .stars10 input:checked ~ label{
+    color:gold;
+    text-shadow:1px 1px #c60;
+    
+  }
+  
+  .stars10:not(:checked) > label:hover{
+    color:gold;
+  }
+  
+
+
+  .stars10 .result10:before{
+    position:relative;
+    content: '';
+    left:100%;
+    top: 40px;
+    transform: translateX(-50%);
+    font-size:20px;
+    bottom:-30px;
+    font-weight:500;
+    color:gold;
+    display:none;
+    
+  }
+  
+  .stars10 input:checked ~ .result10:before{
+    display:block;
+  }
+  
+  .stars10 #lima:checked ~ .result10:before{
+    content : "I Love it  😍";
+  }
+  
+  .stars10 #empat:checked ~ .result10:before{
+    content : "I Like it 😎";
+  }
+  
+  .stars10 #tiga:checked ~ .result10:before{
+    content : "It's Good 😄";
+  }
+  
+  .stars10 #dua:checked ~ .result10:before{
+    content : "I Don't like it 😒";
+  }
+  
+  .stars10 #satu:checked ~ .result10:before{
+    content : "I Hate it 😠";
+  }
+
+  .sosmed{
+    display: flex;
+    justify-content: end;
+
+  }
+
+  .sosmed img{
+    position: relative;
+    left: -20px;
+    top: -10px;
+  }
+
+  .sosmed a{
+    position: relative;
+    right: 30px;
+    top: -11px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .sosmed a:hover{
+    color:rgb(195, 195, 195);
+  }
+
+
+/*card3*/
+
+.cards33{
+  position: relative;
+  left: 55rem;
+  top: -34.5rem;
+  background-color: white;;
+  text-align: center;
+  width: 384px;
+  height: 479px;
+  border-radius: 20px;
+}
+
+.gambar2{
+  height: 0;
+}
+
+.cards33 img{
+  position: relative;
+  top: -5rem;
+}
+
+.hr10{
+  position: relative;
+  top: -3.3rem;
+  
+}
+
+.cards33 .content h2{
+  position: relative;
+  top: -5rem;
+}
+
+.center12{
+    position:relative;
+    width: 1px;
+    top:7rem;
+    left:-9%;
+    transform: translate(-50%, -50%);
+
+  }
+  
+  .center12 .stars12{
+    height:150px;
+    width:500px;
+    text-align:center;
+  }
+  
+  .stars12 label{
+    font-size:30px;
+    color: lightgrey;
+    margin:0 5px;
+    text-shadow:1px 1px #bbb;
+    position: relative;
+    top: -5.5rem;
+    left: -11rem;
+    float: right;
+  }
+  
+  .stars12 label:before{
+    content: '★';
+    
+  }
+  
+  .stars12 input{
+    display:none;
+    width: 1px;
+  }
+  
+  .stars12 input:checked ~ label{
+    color:gold;
+    text-shadow:1px 1px #c60;
+    
+  }
+  
+  .stars12:not(:checked) > label:hover{
+    color:gold;
+  }
+  
+
+
+  .stars12 .result12:before{
+    position:relative;
+    content: '';
+    left:50%;
+    top: -3rem;
+    transform: translateX(-50%);
+    font-size:20px;
+    bottom:-30px;
+    font-weight:500;
+    color:gold;
+    display:none;
+    width: 7rem;
+  }
+
+  .hr2{
+    position: relative;
+    top: -116px;
+  }
+  
+  .stars12 input:checked ~ .result12:before{
+    display:block;
+  }
+  
+  .stars12 #limaa:checked ~ .result12:before{
+    content : "I Love it  😍";
+  }
+  
+  .stars12 #empatt:checked ~ .result12:before{
+    content : "I Like it 😎";
+  }
+  
+  .stars12 #tigaa:checked ~ .result12:before{
+    content : "It's Good 😄";
+  }
+  
+  .stars12 #duaa:checked ~ .result12:before{
+    content : "I Don't like it 😒";
+  }
+  
+  .stars12 #satuu:checked ~ .result12:before{
+    content : "I Hate it 😠";
+  }
+
+  .sosmed2{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -5.2rem;
+
+  }
+
+  .sosmed2 img{
+    position: relative;
+    left: -20px;
+    top: -10px;
+  }
+
+  .sosmed2 a{
+    position: relative;
+    right: 30px;
+    top: -11px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .sosmed2 a:hover{
+    color:rgb(195, 195, 195);
+  }
+
+  /*halaman4*/
+
+.halaman4{
+    background-color:white; ;
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.halaman4 h1{
+    position:absolute;
+    width: 30rem;
+    left: 30%;
+    top: -100;
+    font-size: 3rem;
+}
+
+
+
+.card1,.card2,.card3,.card4{
+    border-radius: 2rem;
+    position: relative;
+    width: 18rem;
+    height: 26rem;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.525);
+    margin-left:50px;
+    top: 10rem;
+    left: 30rem;;
+    
+}
+
+.halaman4 img{
+    position: relative;
+    top: 10px;
+}
+
+.halaman4 button{
+    border-color: #18A0FB;
+    border-width: 1px;
+    color: #18A0FB;
+    background-color: white;
+    margin-top: 30px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.halaman4 button:hover{
+    background-color: #18A0FB;
+    color: white;
+    
+
+}
+.halaman4 h2{
+    position: relative;
+    top: 50px;
+}
+
+.halaman4 p{
+font-weight:bold;
+padding-top: 60px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.quick{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    left: 10rem;
+    top: 2rem;
+    width: 120px;
+}
+
+.quick a{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+
+.about{
+    text-align: center;
+    position: relative;
+    top: -3rem;
+    left: -25px;
+}
+
+footer{
+    background-color: #EDEDED;
+}
